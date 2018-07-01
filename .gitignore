@@ -1,0 +1,12 @@
+# Compiled source #
+#############
+*.class
+
+# xml and iml files #
+##########
+*.xml
+*.iml
+
+# Directories with .class#
+##########
+out/
