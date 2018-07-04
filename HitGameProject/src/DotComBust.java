@@ -22,7 +22,10 @@ public class DotComBust {
             ArrayList<String> location = this.helper.placeDotCom(3);
             dotComItem.setLocation(location);
         }
-        System.out.println("DotCom items have been placed...");
+        System.out.println("DotCom items have been placed to...");
+        one.getLocation();
+        two.getLocation();
+        three.getLocation();
         //set DotCom objects with names and locations
         //give instructions to player
     }

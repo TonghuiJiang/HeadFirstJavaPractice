@@ -12,6 +12,9 @@ public class DotCom {
         public void setLocation(ArrayList<String> locs) {
             this.locations = locs;
         }
+        public void getLocation() {
+            System.out.println(locations);
+        }
 
         public String checkYourself(String userGuess) {
             String result = "miss";
@@ -23,7 +26,7 @@ public class DotCom {
 
                 if(locations.isEmpty()) {
                     result = "kill";
-                    System.out.println("Ouch! You sunlk " + name + " :( "));
+                    System.out.println("Ouch! You sunlk " + this.name + " :( ");
                 } else {
                     result = "hit";
                 }
