@@ -9,4 +9,12 @@ public class MyAnimalList {
             nextIndex++;
         }
     }
+
+    public Object get(int index) {
+        if(index < 5) {
+            return animals[index];
+        } else {
+            return animals[0];
+        }
+    }
 }
