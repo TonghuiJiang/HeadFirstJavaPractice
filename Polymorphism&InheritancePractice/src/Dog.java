@@ -1,4 +1,4 @@
-public class Dog {
+public class Dog extends Feline{
     private String name;
 
     public void setName(String name) {

@@ -1,7 +1,5 @@
-public class Canine extends Animal{
+abstract public class Canine extends Animal{
 
-    @Override
-    public void roam() {
-        System.out.println("This is Canine's walking");
-    }
+
+    public abstract void roam();
 }

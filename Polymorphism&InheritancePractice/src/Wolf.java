@@ -11,8 +11,13 @@ public class Wolf extends Canine{
         System.out.println("This is wolf's eating...");
     }
 
+    @Override
+    public void roam() {
+        System.out.println("wolf is roaming...");
+    }
+
     public static void main(String[] args) {
-        Wolf w = new Wolf();
+        Canine w = new Wolf();
         w.makeNoise();
         w.roam();
         w.eat();
