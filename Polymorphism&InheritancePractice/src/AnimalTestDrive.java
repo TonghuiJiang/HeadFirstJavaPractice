@@ -5,10 +5,10 @@ public class AnimalTestDrive {
         Dog d = new Dog();
         list.add(w);
         list.add(d);
-        Object o = list.get(0);
-        Wolf awolf = (Wolf) o;
-        awolf.eat();
         w.eat();
         d.eat();
+
+        d.beFriendly();
+        d.play();
     }
 }
