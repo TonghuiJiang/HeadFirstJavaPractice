@@ -1,8 +1,8 @@
 public class Duck extends Animal{
     int size;
 
-    public Duck() {
+    public Duck(String theName) {
+        super(theName);
 
-        System.out.println("Making a duck");
     }
 }

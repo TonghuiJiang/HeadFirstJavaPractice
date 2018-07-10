@@ -1,8 +1,11 @@
 public class Animal {
-    String picture;
+    String name;
 
-    public Animal() {
-        System.out.println("Making an Animal");
+    public String getName() {
+        return this.name;
+    }
+    public Animal(String theName) {
+        this.name = theName;
     }
     public void sleep() {
         System.out.println("The animal is sleeping...");
