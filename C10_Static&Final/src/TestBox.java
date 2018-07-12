@@ -1,15 +1,19 @@
 public class TestBox {
-    Integer i;
-    int j;
+
+    static int j = 42;
+    static double i = 35.5;
+    static String str;
 
     public static void main(String[] args) {
-        TestBox t = new TestBox();
-        t.go();
+        String intString = "" + TestBox.j;
+        System.out.println(intString);
+
+        String doubleString = Double.toString(i);
+        System.out.println(doubleString);
+        TestBox box = new TestBox();
+        System.out.println(str);
+
     }
 
-    public void go() {
-        j = i;
-        System.out.println(i);
-        System.out.println(j);
-    }
+
 }
