@@ -10,6 +10,7 @@ public class MusicTest1 {
             System.out.println("We got a sequencer");
         } catch (MidiUnavailableException ex) {
             System.out.println("Bummer");
+            System.out.println("Joking...");
         }
 
     }
