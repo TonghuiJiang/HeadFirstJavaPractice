@@ -29,5 +29,6 @@ public class ExThrow {
             System.out.println("Failed");
         }
         System.out.println("We made it!");
+
     }
 }
